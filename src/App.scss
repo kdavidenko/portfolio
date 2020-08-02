@@ -1,0 +1,107 @@
+@import "./variables.scss";
+
+//// DEFAULT STYLES ////
+//colors
+.brand-heavy {color:$brand-heavy}
+.brand-lite {color:$brand-lite}
+.emphasis {color:$emphasis}
+.link {color:$link}
+.background {color:$background}
+.white {color:$white}
+.black {color:$black}
+
+// titles
+.title-1 {font-size:48px;}
+.title-2 {font-size:36px;}
+.title-3 {font-size:24px;}
+
+// body
+.body-10 {font-size:10px; line-height: 14px;}
+.body-12 {font-size:12px; line-height: 16px;}
+.body-14 {font-size:14px; line-height: 20px;}
+.body-16 {font-size:16px; line-height: 22px;}
+.body-18 {font-size:18px; line-height: 26px;}
+.body-20 {font-size:20px; line-height: 28px;}
+.body-22 {font-size:22px; line-height: 30px;}
+.body-24 {font-size:24px; line-height: 34px;}
+.body-26 {font-size:26px; line-height: 36px;}
+.body-30 {font-size:30px; line-height: 42px;}
+.body-48 {font-size:48px; line-height: 68px;}
+
+// typeface
+.bold {font-weight: 600;}
+.italic {font-style: italic;}
+.underline {text-decoration:underline;}
+.strike-thru {text-decoration:line-through;}
+
+//// BLOCK LAYOUT ////
+.block-1 {width:8.33%;}
+.block-2 {width:16.67%;}
+.block-3 {width:25%;}
+.block-4 {width:33%;}
+.block-5 {width:41.67%;}
+.block-6 {width:50%;}
+.block-7 {width:58.33%;}
+.block-8 {width:66.67%;}
+.block-9 {width:75%;}
+.block-10 {width:83.33%;}
+.block-11 {width:91.67%;}
+.block-12 {width:100%;}
+
+// position
+
+.center {text-align: center;}
+.left {text-align: center;}
+.right {text-align: center;}
+
+.App {
+    text-align: center;
+    background-color: $black;
+  }
+      
+  .site-background {
+    background: linear-gradient(0deg,$brand-lite 50%, $background 50%);    
+    height: 100vh; 
+    overflow: hidden;
+  }
+
+
+  .cactus {
+    position: absolute;
+  }
+
+  .cactus.cactus-one {
+    display:none;
+  }
+  .cactus.cactus-two {
+    top: 35%;
+    right: 10%;
+    width: 94px;
+  }
+  .skull {
+    top: 50%;
+    left: 10%;
+    width: 200px;
+    position: absolute;
+
+    position: absolute;
+  }
+  @media only screen and (min-width: 768px) {
+    .cactus.cactus-one {
+      display: block;
+      top: 25%;
+      left: 75%;
+      width: 175px;
+    }
+    .cactus.cactus-two {
+      top: 35%;
+      left: 25%;
+      width: 94px;
+    }
+    
+  .skull {
+    top: 35%;
+    right: 10%;
+    width: 94px;
+  }
+  }
