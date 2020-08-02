@@ -83,8 +83,6 @@
     left: 10%;
     width: 200px;
     position: absolute;
-
-    position: absolute;
   }
   @media only screen and (min-width: 768px) {
     .cactus.cactus-one {
@@ -100,8 +98,9 @@
     }
     
   .skull {
-    top: 35%;
-    right: 10%;
-    width: 94px;
+    top: 50%;
+    left: 0%;
+    width: 400px;
+    position: absolute;
   }
   }

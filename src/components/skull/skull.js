@@ -5,7 +5,7 @@ function Skull() {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 975 700">
     <path id="horns"
-          fill="#999999" stroke="#999999" stroke-width="0"
+          fill="#999999" stroke="#999999" strokeWidth="0"
           d="M 460.00,118.00
              C 460.01,122.43 460.06,125.65 461.30,130.00
                462.28,133.44 464.15,136.79 465.75,140.00
@@ -69,7 +69,7 @@ function Skull() {
                90.00,250.00 89.00,233.00 89.00,233.00
                88.99,229.00 89.49,224.76 88.00,221.00 Z" />
         <path id="skull"
-          fill="#CECECE" stroke="#CECECE" stroke-width="0"
+          fill="#CECECE" stroke="#CECECE" strokeWidth="0"
           d="M 338.00,527.00
              C 338.06,529.53 338.06,531.53 338.80,534.00
                340.44,539.47 349.64,553.79 354.17,557.03
