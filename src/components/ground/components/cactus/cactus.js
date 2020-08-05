@@ -1,10 +1,6 @@
 import React from 'react';
 
 
-// Cactus.defaultProps = {
-//   width: '175px',
-//   height: '300px'
-// }
 function Cactus() {
   return (
         <svg xmlns="http://www.w3.org/2000/svg"
