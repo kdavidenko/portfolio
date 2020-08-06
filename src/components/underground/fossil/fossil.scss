@@ -1,12 +1,27 @@
-.trex {
+.crack:hover { 
+    cursor: url("./shovel.svg"), auto;
+}
+
+.trex-wrap {
     top:10%;
     width: 600px;
     left:55%;
     transform: rotate(-37deg);
     position: absolute;
 }
+.trex-wrap .crack {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+}
 
-.nautilus {
+.trex-wrap .trex {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+}
+
+.nautilus-wrap {
     top: 55%;
     width: 100px;
     left: 15%;
@@ -14,10 +29,32 @@
     position: absolute;
 }
 
-.trilobyte {
+.nautilus-wrap .crack {
+    position: absolute;
+    z-index: 2;
+    width: 150%;
+}
+.nautilus-wrap .nautilus {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+}
+
+.trilobyte-wrap {
     width: 80px;
     top: 80%;
     left:55%;
     transform: rotate(127deg);
     position: absolute;
+}
+.trilobyte-wrap .crack {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+}
+
+.trilobyte-wrap .trilobyte {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
 }
