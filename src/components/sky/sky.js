@@ -8,7 +8,7 @@ function Sky() {
             Kyle Davidenko
           </div>
           <div className="center title-2 block-12 brand-heavy">
-            Front End Engineer
+            Senior Front End Developer
           </div>
         </header>
         </div>
